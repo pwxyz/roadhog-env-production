@@ -1,0 +1,29 @@
+{
+  "name": "roadhog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "roadhog dev",
+    "build": "roadhog build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.8.1",
+    "babel-plugin-dva-hmr": "0.3.2",
+    "css-split-webpack-plugin": "^0.2.5",
+    "dva": "2.2.2",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.8.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "4.2.3",
+    "extract-text-webpack-plugin": "3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "roadhog": "2.4.1"
+  }
+}
